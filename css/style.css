@@ -596,9 +596,14 @@ footer div img{
 
 
 @media screen and (max-width:400px){
+    .encabezado div img{
+        display: none;
+    }
     .fixed{
         display: none;
     }
+
+
 }
 
 @media screen and (max-width:350px){
@@ -611,6 +616,9 @@ footer div img{
     .lugares{
         display: flex;
         align-items: center;
+    }
+    .bienvenidos-titulo{
+        font-size: 10px;
     }
 }
 
