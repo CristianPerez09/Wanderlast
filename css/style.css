@@ -536,6 +536,7 @@ footer div img{
 .nosotros{
     font-size: 15px;
     font-weight: 600;
+    width: 400px;
 }
 
 .bienvenidos-titulo{
@@ -595,14 +596,9 @@ footer div img{
 
 
 @media screen and (max-width:400px){
-    .encabezado div img{
-        display: none;
-    }
     .fixed{
         display: none;
     }
-
-
 }
 
 @media screen and (max-width:350px){
@@ -656,6 +652,10 @@ footer div img{
     .bienvenidos img{
         width: 350px;
         height: 250px;
+    }
+    .nosotros{
+        font-size: 12px;
+        width: 350px;
     }
     .ubicacion{
         display: flex;
