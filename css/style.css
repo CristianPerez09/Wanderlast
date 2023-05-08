@@ -232,12 +232,13 @@ footer div img{
 .formularios{
     width: 400px;
     height: 500px;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 2px;
     box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
     -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
     -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
     font-weight: 800;
+    color: rgb(57, 114, 114);
 }
 
 .fotmularios:hover{
