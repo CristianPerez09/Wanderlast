@@ -620,6 +620,9 @@ footer div img{
     .bienvenidos-titulo{
         font-size: 10px;
     }
+    .bienvenidos-2{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:450px){
