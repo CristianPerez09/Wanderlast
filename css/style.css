@@ -397,6 +397,7 @@ footer div img{
     width: 350px;
     height: 430px;
     text-align: center;
+    margin: 10px;
     flex-wrap: wrap;
     font-weight: 600;
     border-radius: 20px;
@@ -602,7 +603,12 @@ footer div img{
     .fixed{
         display: none;
     }
-
+    .lugares{
+        align-items: center;
+    }
+    .ubicacion{
+        align-items: center;
+    }
 
 }
 
@@ -656,6 +662,12 @@ footer div img{
     .hero p{
         font-size: 20px;
     }
+    .ciudades-imagenes{
+        margin-top: 30px;
+    }
+    .container-img{
+        margin-top: 30px;
+    }
 }
 
 
@@ -695,7 +707,14 @@ footer div img{
 }
 
 
-
+@media screen and (max-width:450px){
+    .bienvenidos{
+        align-items: center;
+    }
+    .ubicacion-2{
+        align-items: center;
+    }
+}
 
 
 /*! PSEUDOCLASES */
