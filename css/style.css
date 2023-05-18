@@ -63,16 +63,6 @@ footer div img{
 
 
 
-.encabezado{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-
-
-
 .fixed{
     position: fixed;
     bottom: 20px;
@@ -86,7 +76,7 @@ footer div img{
     font-size: 35px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
-    padding: 20px;
+    padding: 40px;
 }
 
 .section-titulo:hover{
@@ -169,7 +159,7 @@ footer div img{
     color: rgb(0, 117, 117);
 }
 
-.destinos-imagen{
+.destinos-imagen-rio{
     height: 250px;
     background-image: url("../img/riodejaneiro.png");
     background-size: cover;

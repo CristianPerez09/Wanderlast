@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:ital@1&family=Raleway:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-titulo{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    padding: 40px;
+    &:hover{
+        color: rgb(0, 117, 117);
+    }
+}
+
+.fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}

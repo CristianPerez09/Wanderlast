@@ -1,6 +1,131 @@
-footer p {
-  color: black;
-  font-family: 'Barlow', sans-serif;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Poppins:ital@1&family=Raleway:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.section-titulo {
   text-align: center;
-  font-size: 15px;
-  font-weight: 600; }
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  padding: 40px; }
+  .section-titulo:hover {
+    color: #007575; }
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 10px; }
+
+header {
+  background-color: #C8D6B5;
+  position: sticky;
+  top: 0; }
+  header nav ul li a {
+    color: black;
+    text-decoration: none; }
+    header nav ul li a:hover {
+      color: #007575; }
+
+.hero {
+  background-image: url("../img/paisaje.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .hero div h1 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    display: flex;
+    justify-content: center; }
+  .hero div p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center; }
+
+.lugares {
+  /*! ACTIVAR FLEXBOX*/
+  display: flex;
+  justify-content: space-evenly; }
+  .lugares .destinos {
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 20px -17px 38px -23px rgba(0, 0, 0, 0.75);
+    -webkit-caja-sombra: 20px -17px 38px -23px rgba(0, 0, 0, 0.75);
+    -moz-caja-sombra: 20px -17px 38px -23px rgba(0, 0, 0, 0.75);
+    flex-wrap: wrap; }
+    .lugares .destinos .destinos-imagen-rio {
+      height: 250px;
+      background-image: url("../img/riodejaneiro.png");
+      background-size: cover;
+      border-radius: 10px; }
+    .lugares .destinos .destinos-imagen-glaciar {
+      height: 250px;
+      background-image: url("../img/glaciar.png");
+      background-size: cover;
+      border-radius: 10px; }
+    .lugares .destinos .destinos-imagen-paris {
+      height: 250px;
+      background-image: url("../img/paris.png");
+      background-size: cover;
+      border-radius: 10px; }
+    .lugares .destinos .destinos-imagen-machu {
+      height: 250px;
+      background-image: url("../img/machu.jpg");
+      background-size: cover;
+      border-radius: 10px; }
+    .lugares .destinos .destinos-imagen-cañon {
+      height: 250px;
+      background-image: url("../img/cañon.jpg");
+      background-size: cover;
+      border-radius: 10px; }
+    .lugares .destinos .destinos-imagen-piramides {
+      height: 250px;
+      background-image: url("../img/piramides.jpg");
+      background-size: cover;
+      border-radius: 10px; }
+    .lugares .destinos .destinos-titulos {
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      transition: 1s; }
+      .lugares .destinos .destinos-titulos:hover {
+        color: #007575; }
+    .lugares .destinos p {
+      font-size: 15px;
+      font-weight: 700; }
+
+footer {
+  background-color: #C8D6B5; }
+  footer .container-fondo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: row;
+    grid-template-areas: "logo past img";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500; }
+    footer .container-fondo .img {
+      grid-area: img; }
+    footer .container-fondo .copy {
+      grid-area: past; }
+      footer .container-fondo .copy .past {
+        margin-top: 20px; }
+    footer .container-fondo .logo {
+      grid-area: logo; }
+      footer .container-fondo .logo img {
+        width: 50px;
+        height: 50px; }
+      footer .container-fondo .logo img {
+        width: 50px;
+        height: 50px; }
