@@ -580,9 +580,6 @@ footer div img{
 
 
 @media screen and (max-width:400px){
-    .encabezado div img{
-        display: none;
-    }
     .fixed{
         display: none;
     }
@@ -644,12 +641,6 @@ footer div img{
     }
     .hero p{
         font-size: 20px;
-    }
-    .ciudades-imagenes{
-        margin-top: 30px;
-    }
-    .container-img{
-        margin-top: 30px;
     }
 }
 

@@ -1,5 +1,61 @@
-/*--PALETA DE COLORES--*/
+//*PALETA DE COLORES*//
 $color-principal:rgb(0, 117, 117);
 $color-secundario:#C8D6B5;
 $color-terciario:#e1e5ff;
 $color-p: black;
+
+//*LISTAS*//
+
+
+
+
+
+
+//* MAPAS*//
+
+
+
+
+
+//*OPERACIONES*//
+
+
+
+
+
+
+
+
+//*MAPAS*//
+
+
+
+
+
+//*MIXINS*//
+@mixin flex ($flex, $justify){
+    display: $flex;
+    justify-content: $space-evenly;
+}
+
+@mixin flex ($flex, $column){
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flex ($flex, $center){
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex ($flex, $space-around){
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin flex ($flex, $space-around, $align, $row){
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+}

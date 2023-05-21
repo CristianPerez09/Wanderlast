@@ -1,0 +1,199 @@
+@media screen and (max-width:989px){
+    .bienvenidos{
+        display: flex;
+        flex-direction: column;
+        
+        .bienvenidos img{
+            width: 350px;
+            height: 250px;
+        }
+    }
+    .nosotros{
+        font-size: 12px;
+        width: 350px;
+    }
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 300px;
+    }
+
+    .lugares{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:927px){
+    .lugares{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:835px){
+    .lugares{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width:400px){
+    .fixed{
+        display: none;
+    }
+    .ubicacion{
+        align-items: center;
+    }
+
+    .lugares{
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+
+@media screen and (max-width:350px){
+    .section-titulo{
+        font-size: 20px;
+    }
+    .bienvenidos-titulo{
+        font-size: 10px;
+    }
+    .lugares{
+        display: flex;
+        align-items: center;
+    }
+    .destinos p{
+        font-size: 15px;
+    }
+    .bienvenidos-2{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .ciudades-imagenes{
+        margin-top: 30px;
+
+        .ciudades-imagenes p{
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+
+    .bienvenidos{
+        display: flex;
+        flex-direction: column;
+
+
+        .bienvenidos img{
+            width: 250px;
+            height: 150px;
+}
+}
+    .container-img{
+        text-align: center;
+        width: 300px;
+        height: 400px;;
+        }
+
+    .destinos-lugares{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .ciudades-imagenes{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bienvenidos-titulo{
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+
+
+
+@media screen and (max-width:450px){
+
+    .bienvenidos{
+        align-items: center;
+    }
+    .ubicacion-2{
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:547px){
+    .hero{
+        div{
+
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 30px;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:405px){
+    .section-titulo{
+        font-size: 30px;
+    }
+    .hero{
+        div{
+
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 20px;
+            }
+
+        }
+    }
+
+}
+
+
+@media screen and (max-width:493px){
+    .imagen-contacto{
+        div{
+            .titulos{
+                text-align: center;
+                font-size: 20px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:380px){
+    .container{
+        .container-img{
+            .destinos-titulo{
+                font-size: 30px;
+            }
+        }
+    }
+}
