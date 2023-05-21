@@ -88,3 +88,282 @@
         }
     }
 }
+
+.imagen-contacto{
+    background-image: url("../img/rutas.jpg");
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+        .titulos{
+            font-size: 40px;
+            text-align: center;
+            padding: 20px;
+            &:hover{
+                color: $color-principal;
+            }
+        }
+    }
+
+.registrate{
+    display: flex;
+    justify-content: center;
+    .formularios{
+        width: 400px;
+        height: 500px;
+        font-size: 20px;
+        border-radius: 2px;
+        box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
+        -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        font-weight: 800;
+        color: $color-principal;
+        &:hover{
+            color: $color-p;
+        }
+        .formularios-nombre-1{
+            display: flex;
+            flex-direction: column;
+            width: 20px;
+            flex-wrap: wrap;
+        }
+
+        .formularios-nombre-2{
+            display: flex;
+            flex-direction: column;
+            width: 20px;
+            flex-wrap: wrap;
+        }
+        .formularios-nombre-3{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+        }
+
+        .genero{
+            font-size: 40px;
+            font-weight: 600px;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+
+        }
+
+        .genero-1{
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .reset{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.bienvenidos{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+
+    .bienvenidos-1{
+        width: 400px;
+        height: 250px;
+        font-size: 20px;
+        width: 600;
+        text-align: center;
+        
+        .bienvenidos-titulo{
+            font-size: 20px;
+        }
+
+        .nosotros{
+            font-size: 15px;
+            font-weight: 600;
+            width: 400px;
+        }
+    }
+}
+
+
+.ubicacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+
+.ciudades{
+    /*! ACTIVAR FLEXBOX*/
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+    .ciudades-imagenes{
+        width: 450px;
+        height: 500px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
+        -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        
+        .ciudades-imagenes-1{
+            height: 250px;
+            background-image: url("../img/mendoza.jpg");
+            background-size: cover;
+            text-align: center;
+            border-radius: 20px;
+        }
+        
+        .ciudades-imagenes-2{
+            height: 250px;
+            background-image: url("../img/bora.jpg");
+            background-size: cover;
+            text-align: center;
+            border-radius: 20px;
+
+        }
+        
+        .ciudades-imagenes-3{
+            height: 250px;
+        background-image: url("../img/coliseo.jpg");
+        background-size: cover;
+        text-align: center;
+        border-radius: 20px;
+        }
+        
+        .ciudades-imagenes-4{
+            height: 250px;
+            background-image: url("../img/cataratas.jpg");
+            background-size: cover;
+            text-align: center;
+            border-radius: 20px;
+        }
+        
+        p{
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+    
+}
+
+
+.container{
+    width: 100%;
+    /*! ACTIVAR FLEXBOX*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .container-img{
+        width: 350px;
+        height: 430px;
+        text-align: center;
+        margin: 10px;
+        flex-wrap: wrap;
+        font-weight: 600;
+        border-radius: 20px;
+        box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
+        -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+
+        
+        a{
+            color: $color-p;
+            text-decoration: none;
+            font-size: 20px;
+            transition: 0.5s;
+            &:hover{
+                color: $color-principal;
+            }
+        }
+        
+        p{
+            font-family: 'Barlow', sans-serif;
+            font-size: 15px;
+            font-weight: 800;
+        }
+
+        .container-img-1{
+            background-image: url("../img/cors.png");
+            height: 250px;
+            background-size: cover;
+            border-radius: 10px;
+        }
+        .container-img-2{
+            background-image: url("../img/cauquenes.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-3{
+            background-image: url("../img/peninsula.png");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-4{
+            background-image: url("../img/maroma.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-5{
+            background-image: url("../img/maldivas.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-6{
+            background-image: url("../img/villa.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-7{
+            background-image: url("../img/alpina.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-8{
+            background-image: url("../img/delta.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        
+        .container-img-9{
+            background-image: url("../img/montana.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-10{
+            background-image: url("../img/montaña.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-11{
+            background-image: url("../img/mio.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+        .container-img-12{
+            background-image: url("../img/hilton.jpg");
+            height: 250px;
+            background-size: cover;
+            border-radius: 20px;
+        }
+    }
+}

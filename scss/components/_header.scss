@@ -1,15 +1,15 @@
 header{
-    background-color: #C8D6B5;
+    background-color: $color-secundario;
     position: sticky;
     top: 0;
     nav{
         ul{
             li{
                 a{
-                color: black;
+                color: $color-p;
                 text-decoration: none;
                 &:hover{
-                    color: rgb(0, 117, 117);
+                    color: $color-principal;
                 }
                 }
             }
