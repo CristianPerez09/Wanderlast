@@ -1,61 +1,51 @@
-//*PALETA DE COLORES*//
+//*VARIABLE*//
 $color-principal:rgb(0, 117, 117);
 $color-secundario:#C8D6B5;
 $color-terciario:#e1e5ff;
 $color-p: black;
 
+
+
 //*LISTAS*//
 
-
-
-
-
-
-//* MAPAS*//
-
-
-
-
-
-//*OPERACIONES*//
-
-
-
-
-
-
-
-
-//*MAPAS*//
-
-
+$font-size:
+15px,
+35px,
+60px,
+13px,
+30px,
+10px,
+20px,
+40px,
+65px;
 
 
 
 //*MIXINS*//
+
 @mixin flex ($flex, $justify){
     display: $flex;
-    justify-content: $space-evenly;
+    justify-content: $justify;
 }
 
-@mixin flex ($flex, $column){
-    display: flex;
-    flex-direction: column;
+
+
+@mixin direction ($flex, $justify){
+    display: $flex;
+    justify-content: $justify;
 }
 
-@mixin flex ($flex, $center){
-    display: flex;
-    justify-content: center;
+@mixin formularios ($flex, $column){
+    display: $flex;
+    flex-direction: $column;
 }
 
-@mixin flex ($flex, $space-around){
-    display: flex;
-    justify-content: space-around;
+@mixin formularios ($flex, $evenly){
+    display: $flex;
+    justify-content: $evenly;
 }
 
-@mixin flex ($flex, $space-around, $align, $row){
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-    flex-direction: row;
+@mixin bienvenidos ($flex, $around){
+    display: $flex;
+    justify-content: $around;
 }

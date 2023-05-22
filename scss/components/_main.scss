@@ -9,24 +9,23 @@
         h1{
             font-weight: 700;
             font-family: 'Raleway', sans-serif;
-            font-size: 65px;
-            display: flex;
-            justify-content: center;
+            font-size: nth($font-size, 9);
+            @include flex (flex, center);
         }
         p{
             font-family: 'Barlow', sans-serif;
-            font-size: 40px;
+            font-size: nth($font-size, 8);
             font-weight: 600;
-            display: flex;
-            justify-content: center;
+            @include flex (flex, center);
         }
     }
 }
 
+
+
 .lugares{
     /*! ACTIVAR FLEXBOX*/
-    display: flex;
-    justify-content: space-evenly;
+    @include direction (flex, space-evenly);
     .destinos{
         width: 300px;
         height: 600px;
@@ -71,23 +70,14 @@
             background-size: cover;
             border-radius: 10px;
         }
-        .destinos-titulos{
-            text-align: center;
-            font-size: 30px;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-            transition: 1s;
-        &:hover{
-            color: $color-principal;
-        }
+        
         }
         
         p{
-            font-size: 15px;
+            font-size: nth($font-size, 1);
             font-weight: 700;
         }
     }
-}
 
 .imagen-contacto{
     background-image: url("../img/rutas.jpg");
@@ -95,7 +85,7 @@
     height: 1000px;
     background-size: cover;
         .titulos{
-            font-size: 40px;
+            font-size: nth($font-size, 8);
             text-align: center;
             padding: 20px;
             &:hover{
@@ -105,12 +95,11 @@
     }
 
 .registrate{
-    display: flex;
-    justify-content: center;
+    @include flex (flex, center);
     .formularios{
         width: 400px;
         height: 500px;
-        font-size: 20px;
+        font-size: nth($font-size, 7);
         border-radius: 2px;
         box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
         -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
@@ -121,27 +110,24 @@
             color: $color-p;
         }
         .formularios-nombre-1{
-            display: flex;
-            flex-direction: column;
+            @include formularios (flex, column);
             width: 20px;
             flex-wrap: wrap;
         }
 
         .formularios-nombre-2{
-            display: flex;
-            flex-direction: column;
+            @include formularios (flex, column);
             width: 20px;
             flex-wrap: wrap;
         }
         .formularios-nombre-3{
-            display: flex;
-            justify-content: space-evenly;
+            @include formularios (flex, space-evenly);
             flex-wrap: wrap;
 
         }
 
         .genero{
-            font-size: 40px;
+            font-size: nth($font-size, 8);
             font-weight: 600px;
             text-align: center;
             font-family: 'Raleway', sans-serif;
@@ -151,38 +137,36 @@
         .genero-1{
             text-align: center;
             font-family: 'Raleway', sans-serif;
-            font-size: 20px;
+            font-size: nth($font-size, 7);
             justify-content: center;
             flex-wrap: wrap;
         }
 
         .reset{
-            display: flex;
-            justify-content: center;
+            @include flex (flex, center);
             flex-wrap: wrap;
         }
     }
 }
 
 .bienvenidos{
-    display: flex;
-    justify-content: space-around;
+    @include bienvenidos (flex, space-around);
     align-items: start;
     flex-direction: row;
 
     .bienvenidos-1{
         width: 400px;
         height: 250px;
-        font-size: 20px;
+        font-size:  nth($font-size, 7);
         width: 600;
         text-align: center;
         
         .bienvenidos-titulo{
-            font-size: 20px;
+            font-size: nth($font-size, 7);
         }
 
         .nosotros{
-            font-size: 15px;
+            font-size: nth($font-size, 1);
             font-weight: 600;
             width: 400px;
         }
@@ -191,8 +175,7 @@
 
 
 .ubicacion{
-    display: flex;
-    justify-content: space-around;
+    @include bienvenidos (flex, space-around);
     align-items: center;
     flex-direction: row-reverse;
 
@@ -201,8 +184,7 @@
 
 .ciudades{
     /*! ACTIVAR FLEXBOX*/
-    display: flex;
-    justify-content: space-around;
+    @include bienvenidos (flex, space-around);
     padding: 20px;
     flex-wrap: wrap;
     
@@ -249,7 +231,7 @@
         }
         
         p{
-            font-size: 15px;
+            font-size: nth($font-size, 1);
             font-weight: 700;
         }
     }
@@ -260,8 +242,7 @@
 .container{
     width: 100%;
     /*! ACTIVAR FLEXBOX*/
-    display: flex;
-    justify-content: space-around;
+    @include bienvenidos (flex, space-around);
     flex-wrap: wrap;
     .container-img{
         width: 350px;
@@ -279,7 +260,7 @@
         a{
             color: $color-p;
             text-decoration: none;
-            font-size: 20px;
+            font-size: nth($font-size, 7);
             transition: 0.5s;
             &:hover{
                 color: $color-principal;
@@ -288,7 +269,7 @@
         
         p{
             font-family: 'Barlow', sans-serif;
-            font-size: 15px;
+            font-size: nth($font-size, 1);
             font-weight: 800;
         }
 

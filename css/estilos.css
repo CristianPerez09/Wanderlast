@@ -6,11 +6,20 @@
 
 .section-titulo {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
   padding: 40px; }
   .section-titulo:hover {
+    color: #007575; }
+
+.destinos-titulos {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: 1s; }
+  .destinos-titulos:hover {
     color: #007575; }
 
 .fixed {
@@ -20,13 +29,6 @@
 
 main {
   background-color: #e1e5ff; }
-
-.destinos-titulo {
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  transition: 1s; }
 
 header {
   background-color: #C8D6B5;
@@ -100,17 +102,9 @@ header {
       background-image: url("../img/piramides.jpg");
       background-size: cover;
       border-radius: 10px; }
-    .lugares .destinos .destinos-titulos {
-      text-align: center;
-      font-size: 30px;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      transition: 1s; }
-      .lugares .destinos .destinos-titulos:hover {
-        color: #007575; }
-    .lugares .destinos p {
-      font-size: 15px;
-      font-weight: 700; }
+  .lugares p {
+    font-size: 15px;
+    font-weight: 700; }
 
 .imagen-contacto {
   background-image: url("../img/rutas.jpg");
@@ -141,12 +135,12 @@ header {
       color: black; }
     .registrate .formularios .formularios-nombre-1 {
       display: flex;
-      flex-direction: column;
+      justify-content: column;
       width: 20px;
       flex-wrap: wrap; }
     .registrate .formularios .formularios-nombre-2 {
       display: flex;
-      flex-direction: column;
+      justify-content: column;
       width: 20px;
       flex-wrap: wrap; }
     .registrate .formularios .formularios-nombre-3 {
@@ -356,30 +350,25 @@ footer {
   .bienvenidos {
     display: flex;
     flex-direction: column; }
-    .bienvenidos .bienvenidos img {
-      width: 350px;
-      height: 250px; }
   .nosotros {
     font-size: 12px;
     width: 350px; }
   .ubicacion {
     display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 300px; }
+    align-items: center; }
   .lugares {
     display: flex;
     align-items: center; } }
 
-@media screen and (max-width: 927px) {
-  .lugares {
-    display: flex;
-    flex-direction: column; } }
-
 @media screen and (max-width: 835px) {
   .lugares {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .section-titulo {
+    font-size: 20px; }
+  .ubicacion {
+    display: flex;
+    align-items: center; } }
 
 @media screen and (max-width: 400px) {
   .fixed {
@@ -412,7 +401,7 @@ footer {
   .bienvenidos {
     display: flex;
     flex-direction: column; }
-    .bienvenidos .bienvenidos img {
+    .bienvenidos img {
       width: 250px;
       height: 150px; }
   .container-img {
@@ -441,15 +430,39 @@ footer {
   .hero div h1 {
     font-size: 30px; }
   .hero div p {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .bienvenidos .bienvenidos-1 .bienvenidos-titulo {
+    text-align: center;
+    font-size: 20px; }
+  .bienvenidos .bienvenidos-1 .nosotros {
+    text-align: center;
+    font-size: 15px; }
+  .ubicacion {
+    display: flex;
+    flex-direction: column; }
+    .ubicacion iframe {
+      display: flex;
+      justify-content: center; }
+    .ubicacion .bienvenidos-2 h2 {
+      text-align: center;
+      font-size: 20px; }
+    .ubicacion .bienvenidos-2 a {
+      text-align: center;
+      font-size: 20px; }
+    .ubicacion .bienvenidos-2 a {
+      text-align: center;
+      font-size: 20px; } }
 
 @media screen and (max-width: 405px) {
   .section-titulo {
-    font-size: 30px; }
+    font-size: 20px; }
   .hero div h1 {
     font-size: 20px; }
   .hero div p {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .ubicacion iframe {
+    width: 200px;
+    height: 200px; } }
 
 @media screen and (max-width: 493px) {
   .imagen-contacto div .titulos {

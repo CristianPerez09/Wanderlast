@@ -4,10 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
 .section-titulo{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     padding: 40px;
@@ -15,6 +14,21 @@
         color: rgb(0, 117, 117);
     }
 }
+
+.destinos-titulos{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: 1s;
+&:hover{
+    color: rgb(0, 117, 117);
+}
+}
+
+
+
+
 
 .fixed{
     position: fixed;
@@ -26,11 +40,3 @@ main{
     background-color: #e1e5ff
 }
 
-
-.destinos-titulo{
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    transition: 1s;
-}
