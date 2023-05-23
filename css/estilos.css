@@ -4,24 +4,6 @@
   margin: 0;
   padding: 0; }
 
-.section-titulo {
-  text-align: center;
-  font-size: 45px;
-  font-weight: 600;
-  font-family: 'Raleway', sans-serif;
-  padding: 40px; }
-  .section-titulo:hover {
-    color: #007575; }
-
-.destinos-titulos {
-  text-align: center;
-  font-size: 25px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  transition: 1s; }
-  .destinos-titulos:hover {
-    color: #007575; }
-
 .fixed {
   position: fixed;
   bottom: 20px;
@@ -104,7 +86,8 @@ header {
       border-radius: 10px; }
   .lugares p {
     font-size: 15px;
-    font-weight: 700; }
+    font-weight: 700;
+    text-align: center; }
 
 .imagen-contacto {
   background-image: url("../img/rutas.jpg");
@@ -318,6 +301,24 @@ header {
       background-size: cover;
       border-radius: 20px; }
 
+.section-titulo {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  padding: 40px; }
+  .section-titulo:hover {
+    color: #007575; }
+
+.destinos-titulos {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: 1s; }
+  .destinos-titulos:hover {
+    color: #007575; }
+
 footer {
   background-color: #C8D6B5; }
   footer .container-fondo {
@@ -349,10 +350,12 @@ footer {
 @media screen and (max-width: 989px) {
   .bienvenidos {
     display: flex;
-    flex-direction: column; }
-  .nosotros {
-    font-size: 12px;
-    width: 350px; }
+    flex-direction: column;
+    align-items: center; }
+    .bienvenidos .nosotros {
+      font-size: 12px;
+      width: 350px;
+      text-align: center; }
   .ubicacion {
     display: flex;
     align-items: center; }
@@ -474,3 +477,25 @@ footer {
 @media screen and (max-width: 380px) {
   .container .container-img .destinos-titulo {
     font-size: 30px; } }
+
+@media screen and (max-width: 647px) {
+  .bienvenidos img {
+    width: 450px;
+    height: 300px; } }
+
+@media screen and (max-width: 453px) {
+  .bienvenidos img {
+    width: 350px;
+    height: 200px; }
+    .bienvenidos img .bienvenidos-1 .nosotros {
+      width: 350px;
+      height: 200px; } }
+
+@media screen and (max-width: 400px) {
+  .bienvenidos .bienvenidos-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .bienvenidos .bienvenidos-1 .nosotros {
+      width: 350px;
+      height: 300px; } }

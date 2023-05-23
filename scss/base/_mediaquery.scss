@@ -2,11 +2,12 @@
     .bienvenidos{
         display: flex;
         flex-direction: column;
-        
-    }
-    .nosotros{
-        font-size: 12px;
-        width: 350px;
+        align-items: center;
+        .nosotros{
+            font-size: 12px;
+            width: 350px;
+            text-align: center;
+        }
     }
     .ubicacion{
         display: flex;
@@ -97,7 +98,7 @@
     .container-img{
         text-align: center;
         width: 300px;
-        height: 400px;;
+        height: 400px;
         }
 
     .destinos-lugares{
@@ -231,3 +232,44 @@
         }
     }
 }
+
+
+
+@media screen and (max-width:647px){
+    .bienvenidos{
+        img{
+            width: 450px;
+            height: 300px;
+        }
+    }
+}
+
+
+@media screen and (max-width:453px){
+    .bienvenidos{
+        img{
+            width: 350px;
+            height: 200px;
+            .bienvenidos-1{
+                .nosotros{
+                    width: 350px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:400px){
+    .bienvenidos{
+            .bienvenidos-1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .nosotros{
+                    width: 350px;
+                    height: 300px;
+                }
+            }
+        }
+    }
