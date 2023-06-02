@@ -5,18 +5,18 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    @include flex (flex, center);
     div{
         h1{
             font-weight: 700;
             font-family: 'Raleway', sans-serif;
             font-size: nth($font-size, 9);
-            @include flex (flex, center);
+            margin-left: 60px;
         }
         p{
             font-family: 'Barlow', sans-serif;
             font-size: nth($font-size, 8);
             font-weight: 600;
-            @include flex (flex, center);
         }
     }
 }
@@ -153,7 +153,7 @@
 
 .bienvenidos{
     @include bienvenidos (flex, space-around);
-    align-items: start;
+    align-items: center;
     flex-direction: row;
 
     .bienvenidos-1{

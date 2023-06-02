@@ -23,7 +23,6 @@ $font-size:
 
 
 //*MIXINS*//
-
 @mixin flex ($flex, $justify){
     display: $flex;
     justify-content: $justify;

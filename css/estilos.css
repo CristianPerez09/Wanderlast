@@ -28,19 +28,18 @@ header {
   height: 500px;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center; }
   .hero div h1 {
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     font-size: 65px;
-    display: flex;
-    justify-content: center; }
+    margin-left: 60px; }
   .hero div p {
     font-family: 'Barlow', sans-serif;
     font-size: 40px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center; }
+    font-weight: 600; }
 
 .lugares {
   /*! ACTIVAR FLEXBOX*/
@@ -149,7 +148,7 @@ header {
 .bienvenidos {
   display: flex;
   justify-content: space-around;
-  align-items: start;
+  align-items: center;
   flex-direction: row; }
   .bienvenidos .bienvenidos-1 {
     width: 400px;
