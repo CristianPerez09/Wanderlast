@@ -30,9 +30,9 @@
         width: 300px;
         height: 600px;
         border-radius: 10px;
-        box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
-        -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
-        -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
         flex-wrap: wrap;
         
         .destinos-imagen-rio{
@@ -103,9 +103,9 @@
         height: 500px;
         font-size: nth($font-size, 7);
         border-radius: 2px;
-        box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
-        -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
-        -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
         font-weight: 800;
         color: $color-principal;
         &:hover{
@@ -142,10 +142,11 @@
             font-size: nth($font-size, 7);
             justify-content: center;
             flex-wrap: wrap;
+            padding: 20px;
         }
 
         .reset{
-            @include flex (flex, center);
+            @include flex (flex, space-evenly);
             flex-wrap: wrap;
         }
     }
@@ -194,9 +195,9 @@
         height: 500px;
         text-align: center;
         border-radius: 20px;
-        box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
-        -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
-        -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
         
         .ciudades-imagenes-1{
             height: 250px;
@@ -216,7 +217,7 @@
         }
         
         .ciudades-imagenes-3{
-            height: 250px;
+        height: 250px;
         background-image: url("../img/coliseo.jpg");
         background-size: cover;
         text-align: center;
@@ -243,19 +244,19 @@
 .container{
     width: 100%;
     /*! ACTIVAR FLEXBOX*/
-    @include bienvenidos (flex, space-around);
+    @include bienvenidos (flex, space-between);
     flex-wrap: wrap;
+    padding: 40px;
     .container-img{
-        width: 350px;
-        height: 430px;
+        width: 300px;
+        height: 380px;
         text-align: center;
-        margin: 10px;
         flex-wrap: wrap;
         font-weight: 600;
         border-radius: 20px;
-        box-shadow:  20px -17px 38px -23px rgba(0,0,0,0.75);
-        -webkit-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
-        -moz-caja-sombra: 20px -17px 38px -23px rgba(0,0,0,0.75);
+        box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -webkit-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
+        -moz-box-shadow: 0px -10px 22px -5px rgba(0,0,0,0.55);
 
         
         a{
@@ -276,74 +277,74 @@
 
         .container-img-1{
             background-image: url("../img/cors.png");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 10px;
         }
         .container-img-2{
             background-image: url("../img/cauquenes.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-3{
             background-image: url("../img/peninsula.png");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-4{
             background-image: url("../img/maroma.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-5{
             background-image: url("../img/maldivas.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-6{
             background-image: url("../img/villa.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-7{
             background-image: url("../img/alpina.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-8{
             background-image: url("../img/delta.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         
         .container-img-9{
             background-image: url("../img/montana.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-10{
             background-image: url("../img/montaña.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-11{
             background-image: url("../img/mio.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
         .container-img-12{
             background-image: url("../img/hilton.jpg");
-            height: 250px;
+            height: 200px;
             background-size: cover;
             border-radius: 20px;
         }
@@ -355,6 +356,7 @@
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     padding: 40px;
+    transition: 3s;
     &:hover{
         color: rgb(0, 117, 117);
     }
